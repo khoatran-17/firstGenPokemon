@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+.card {
+  background-color: rgb(138, 21, 0);
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 10%;
+  transition: box-shadow 0.5s;
+}
+
+.card:hover {
+  box-shadow: 10px 5px 5px black;
+}
+
+h2 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+p {
+  margin: 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+img {
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.25);
+}
